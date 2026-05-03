@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 *)",
+      "PowerShell(python \"C:\\\\Users\\\\Noman\\\\.claude\\\\plugins\\\\cache\\\\ui-ux-pro-max-skill\\\\ui-ux-pro-max\\\\2.5.0\\\\.claude\\\\skills\\\\ui-ux-pro-max\\\\scripts\\\\search.py\" \"developer tool code snippets productivity minimal dark\" --design-system -p \"Snippets\" -f markdown)",
+      "PowerShell(python \"C:\\\\Users\\\\Noman\\\\.claude\\\\plugins\\\\cache\\\\ui-ux-pro-max-skill\\\\ui-ux-pro-max\\\\2.5.0\\\\cli\\\\assets\\\\scripts\\\\search.py\" \"developer tool code snippets productivity minimal dark\" --design-system -p \"Snippets\" -f markdown)",
+      "Bash(dir)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-git)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-git --package-manager npm)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-git --yes)",
+      "Bash(npx create-next-app@latest snippets-tmp --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-git --yes)",
+      "Bash(npm install *)",
+      "Bash(node -e \"const p = require\\('./package.json'\\); console.log\\('name:', p.name\\); console.log\\('deps:', Object.keys\\(p.dependencies\\).join\\(', '\\)\\); console.log\\('devDeps:', Object.keys\\(p.devDependencies\\).join\\(', '\\)\\)\")",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\Noman\\\\Desktop\\\\coding files\\\\Snippets\" -Recurse -Directory)",
+      "Bash(Select-Object -First 20)",
+      "Bash(Format-Table FullName)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\Noman\\\\Desktop\\\\coding files\\\\Snippets\" -Recurse -Depth 3)",
+      "Bash(Select-Object FullName)",
+      "Bash(npx tsc *)",
+      "Bash(node -e \"const pkg = require\\('./node_modules/react-markdown/package.json'\\); console.log\\('react-markdown version:', pkg.version\\);\")",
+      "Bash(node -e \"const pkg = require\\('./node_modules/next/package.json'\\); console.log\\('next version:', pkg.version\\);\")",
+      "Bash(node -e ' *)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\Noman\\\\Desktop\\\\coding files\\\\Snippets\" -Recurse -File)",
+      "Bash(Select-Object -ExpandProperty FullName)",
+      "Bash(Sort-Object)"
+    ]
+  }
+}
